@@ -1,0 +1,12 @@
+C:/Users/Hamilton/Desktop/TNM061/CMakeFiles/tnm061-lab1.dir
+C:/Users/Hamilton/Desktop/TNM061/CMakeFiles/INSTALL.dir
+C:/Users/Hamilton/Desktop/TNM061/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hamilton/Desktop/TNM061/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Hamilton/Desktop/TNM061/glfw-3.3.2/CMakeFiles/uninstall.dir
+C:/Users/Hamilton/Desktop/TNM061/glfw-3.3.2/CMakeFiles/INSTALL.dir
+C:/Users/Hamilton/Desktop/TNM061/glfw-3.3.2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hamilton/Desktop/TNM061/glfw-3.3.2/src/CMakeFiles/glfw.dir
+C:/Users/Hamilton/Desktop/TNM061/glfw-3.3.2/src/CMakeFiles/INSTALL.dir
+C:/Users/Hamilton/Desktop/TNM061/glew/CMakeFiles/GLEW.dir
+C:/Users/Hamilton/Desktop/TNM061/glew/CMakeFiles/INSTALL.dir
+C:/Users/Hamilton/Desktop/TNM061/glew/CMakeFiles/ALL_BUILD.dir
