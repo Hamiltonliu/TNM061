@@ -90,19 +90,20 @@
             void main() {
                 float specStrength = texture2D(specularMap, vUv).r;
 
-                vec4 color = texture2D(colorTexture, vUv);              
+                vec4 color = texture2D(colorTexture, vUv);
+                vec4 earthColor = texture2D(specularMap, vUv);
                 vec3 normal = normalize(vNormal);
 
                 vec3 lightDir = normalize(pointLights[0].position - vWorldpos);
-                vec3 diffuse = max(dot(normal, lightDir), 0.0) * pointLights[0].color;
+                vec3 diffuse = max(dot(normal, lightDir), 0.0) * pointLights[0].color * 0.1;
 
                 vec3 reflectDir = reflect(-lightDir, normal);
                 vec3 viewDir = normalize(-vWorldpos);
-                float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32.0) * specStrength;
+                float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32.0);
                 vec3 specular = spec * pointLights[0].color;
 
 
-                gl_FragColor = vec4(color.xyz * (diffuse + ambientLightColor) + specular, 1.0);
+                gl_FragColor = vec4(color.xyz * (diffuse + ambientLightColor) + specular * earthColor.r, 1.0);
             }
     </script>
 
